@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\Header and Footer.css">
+    <link rel="stylesheet" href="css\content.css">
+</head>
+
+<body>
+    <header id="header_container">
+        <section id="heading">
+            <p id="myh2" style="margin: 20px 10px;font-size: larger;"><span onclick="dropMenu()">&#9013</span></p>
+            <h2 style="margin-top: 20px;">TSORO</h2>
+        </section>
+        <nav class="order">
+            <ul id="nav_menu">
+                <div>
+                    <li><a href="index.html">Home</a></li>
+                </div>
+
+                
+ 
+                <div>
+                    <li><a href="ready_to_play.html">Ready to Play</a>
+                        <ul>
+                          <li><a href="#need"> What you need</a></li>
+                          <li><a href="#play">How to play</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+  
+                <div>
+                    <li><a href="make_you_own_board.html" >Make your own board</a>
+                        <ul>
+                            <li><a href="make_you_own_board.html#wooden">wooden board</a></li>
+                            <li><a href="make_you_own_board.html#paper">Paper board</a></li>
+                            
+                        </ul>
+                    </li>
+ 
+                </div>
+                <div>
+                    <li><a href="reference_acknowledgements.html">References</a></li>
+                    
+                </div>
+  
+            </ul>
+            <button class="btn1" onclick="start()"> Start the Game</button>
+
+        </nav>
+    </header>
+    <div id="subMenu">
+        
+            <ul>
+                <li><a href="index.html#history">History of Tsoro</a></li>
+                <li><a href="index.html#mancala">The Mancala Connection</a></li>
+                <li><a href="reference_acknowledgements.html#acknowledgements" >Acknowledgements</a></li>
+                <li><a href="reference_acknowledgements.html#references">References</a></li>
+                <li><a href="index.html#age">Age Restrictions</a></li>
+            </ul>
+
+    </div>
+    <nav class="another_navmenu">
+        <p>Start the game</p>
+        <ul>
+            <li><a href="#">Start the game</a></li>
+            <li><a href="#">Tips</a></li>
+        </ul>
+
+    </nav>
+
+    <main class="content">
+        <section class="main1_container">
+            <div class="left" id="borders">
+                <h2> Start the game</h2>
+                <ol>
+                    <li>Decide whether you are playing a single game or a set of games which can be 3 games or 5 games or add set of odd numbers so that a winner is decided.</li>
+                    <li>If it’s a single game you may not need to record on paper. However, if you are playing sets draw a scoreboard on the piece of paper and clearly label so that you are able to record the winner of each set.</li>
+                    <li>Now proceed to toss the coin with two sides to decide who goes first using simple heads or tails wins the toss rule.</li>
+                    <li>Once the toss has settled the issue of who goes first you are now ready to begin play.</li>
+                    <li>Take note that during play you move your pieces in an anti-clockwise fashion</li>
+                    <li>The aim of the game is to bank all your pebbles. There are some other variations of the Tsoro game but this website is focusing on the first player to bank all their pieces wins the game or set.</li>
+                    <li>The player who won the toss can now proceed to play.</li>
+                    <li>Player 1, choose to start from any cup. Pick up all the pebbles in the cup of your choice and place 1 pebble in the next cup, then another pebble in the next cup following an anticlockwise direction until all the four pebbles have been played.</li>
+                    <li>Player 1 continue playing the game by picking up all pebbles from the cup that you landed the last pebble from the first cup and continue with putting 1 pebble in the next cup following the same anticlockwise direction</li>
+                    <li>Player 1 will continue repeating the above steps until the player lands a pebble in a cup that’s empty and that’s when they lose the turn to player 2.</li>
+                    <li>Player one as you spread your pebbles from one cup to the next ensure that you try to bank as many pebbles per each turn that you have. (Banking pebbles is also 1 pebble at a time if during play you get to the bank cup with a pebble in your hand).</li>
+                    <li>Player 2 also can choose to start from any cup and follow the steps done above by player 1 until their play lands their last pebble in an empty cup.</li>
+                    <li>Keep exchanging turns when the player with the turn loses their turn.</li>
+                    <li>The game is won when any one of the players banks all their pebbles.</li>
+
+                </ol>
+            </div>
+            <div class="right" id="borders">
+                <img src="images\A7302655.jpg" alt="">
+
+                <h3>Tips</h3>
+                <ol>
+                    <li>The cup you choose to start your play from has an influence on your chances of winning the game.</li>
+                    <li>Having too many pieces on the cup before the bank cup is a disadvantage. It means in the event that you are all down to 2 pieces you can’t close the game as your last piece will have to take a full trip round the board.</li>
+                    <li>Think carefully about which cup you start your play from so that you maximize banking pebbles per every turn that you play.</li>
+                    <li>Since this Tsoro is a game of strategy you have to strategically think through every play that you make.</li>
+                </ol>
+        
+
+            </div>
+        </section>
+        
+    </main>
+    <script src="javascript\script.js"></script>
+  
+    <footer id="footer">
+        <p>Designed by Cyril K Muhwati in partial fullfilment for BSC Computing</p>
+    </footer>
+   
+</body>
+</html>

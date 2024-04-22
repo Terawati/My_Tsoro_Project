@@ -2,9 +2,107 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <title>home-TSORO A ZIMBABWEAN MANCALA GAME</title>
+        <link rel="stylesheet" href="css\bootstrap.min.css">
+        <link rel="stylesheet" href="css\Header and Footer.css">
+        <link rel="stylesheet" href="css/content.css">
+       
+
 
     </head>
-    <body>
+    <body> 
+        <header id="header_container">
+            <section id="heading">
+               
+                <p id="myh2" style="margin: 20px 10px;font-size: larger;"><span onclick="dropMenu()">&#9013</span></p>
+                <h2 style="margin-top: 20px;">TSORO</h2>
+            </section>
+            <nav class="order">
+                <ul id="nav_menu">
+                    <div>
+                        <li><a href="index.html">Home</a>
+       
+                        </li>
+                    </div>
+                    
+                    
+                    <div>
+                        <li><a href="ready_to_play.html">Ready to Play</a>
+                            <ul>
+                              <li><a href="ready_to_play.html#need"> What you need</a></li>
+                              <li><a href="ready_to_play.html#play">How to play</a></li>
+                            </ul>
+                        </li>
+
+                    </div>
+                
+                        
+                
+                    <div>
+                        <li><a href="make_you_own_board.html">Make your own board</a>
+                            <ul>
+                                <li><a href="make_you_own_board.html"> wooden board</a></li>
+                                <li><a href="make_you_own_board.html"> Paper board</a></li>
+                               
+                            </ul>
+                        </li>
+                           
+
+                        
+                        
+                    </div>
+                    <div>
+                        <li><a href="reference_acknowledgements.html">References</a></li>
+                        
+                    </div>
+ 
+                </ul>
+                <button class="btn1" onclick="start()" class="btn btn-info" > Start the Game</button>
+
+
+            </nav>
+        </header>
+        <div id="subMenu">
+            
+                <ul>
+                    <li class="text-center"><a href="#history" class="text-center">History of Tsoro</a></li>
+                    <li><a href="#mancala">The Mancala Connection</a></li>
+                    <li><a href="reference_acknowledgements.html#references" >Acknowledgements</a></li>
+                    <li><a href="reference_acknowledgements.html#acknowledgements">References</a></li>
+                    <li><a href="#age">Age Restrictions</a></li>
+                </ul>
+
+           
+
+        </div>
+        <main class="main" >
+            <div class="heading1">
+                <h1>Tsoro</h1>
+                <p>Zimbabwean Mancala Game</p>
+                <button class="btns" onclick="start()"> Start the Game</button>
+            </div>
+            <div>
+                <img src="images\A7302574.jpg" alt="">
+            </div>
+        </main>
+        <div class="content">
+            <h2 id="history">History of Tsoro</h2>
+            <p >Tsoro is a mancala game played in Zimbabwe. This game was historically played for various reasons such as recreation by all age groups, warriors as part of their training for battle to enhance enemy capture strategies, by traditional leaders as a peaceful way of settling disputes. The origins of Tsoro cannot be verified by scholars however what is generally agreed in academia is that the mancala games are the games of Africa as stated earlier by Stewart Culin in 1894.There are various versions of the Tsoro games played across Zimbabwe however what is common amongst these games is that it’s a two player board game played with different number of cup like holes which are either dug out in the ground or on boards made of wood using pebbles ,stones or seeds as the pieces for the game.</p>
+            <h2 id="mancala">The Mancala Connection</h2>
+            <p>In 1952 a researcher named Harold James Ruthven Murray made a significant contribution to the literature on the mancala games in his published works A History of Board Games other than Chess where he classified over 200 mancala games. The notable connection between the Mancala board games with Tsoro is that they are all two player board games which are played using boards which have cup like holes grouped in rows and columns. Also the pieces used are seeds or stones or peddles.
+             </p>
+            <p>The reason why the games are played differ from region to region but generally the Mancala board games they are played for fun.</p>
+            <h2 id="age">Age Restrictions for playing Tsoro</h2>
+            <p>No children under 7 should be allowed to play Tsoro the mancala game without adult supervision because some of the pieces especially seeds or pebbles are too small and there is a risk of young children swallowing them. </p>
+
+
+        </div>
+        <script src="javascript\script.js"></script>
+        
+        <footer id="footer">
+            <p>Designed by Cyril K Muhwati in partial fullfilment for BSC Computing</p>
+        </footer>
+
 
     </body>
 </html>

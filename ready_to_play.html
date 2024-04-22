@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ready to Play</title>
+    <link rel="stylesheet" href="css\Header and Footer.css">
+    <link rel="stylesheet" href="css/content.css">
+</head>
+<body>
+    <header id="header_container">
+        <section id="heading">
+           
+            <p id="myh2" style="margin: 20px 10px;font-size: larger;"><span onclick="dropMenu()">&#9013</span></p>
+            <h2 style="margin-top: 20px;">TSORO</h2>
+        </section>
+        <nav class="order">
+            <ul id="nav_menu">
+                <div>
+                    <li><a href="index.html">Home</a></li>
+                </div>
+                
+                
+                <div>
+                    <li><a href="ready_to_play.html">Ready to play</a>
+                        <ul>
+                          <li><a href="#need"> What you need</a></li>
+                          <li><a href="#play">How to play</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+ 
+                <div>
+                    <li><a href="make_you_own_board.html" >Make your own board</a>
+                        <ul>
+                            <li><a href="make_you_own_board.html#wooden">wooden board</a></li>
+                            <li><a href="make_you_own_board.html#paper">Paper board</a></li>
+                            
+                        </ul>
+                    </li>
+ 
+                </div>
+                <div>
+                    <li><a href="reference_acknowledgements.html">References</a></li>
+                    
+                </div>
+ 
+            </ul>
+            <button class="btn1" onclick="start()"> Start the Game</button>
+
+        </nav>
+    </header>
+    <div id="subMenu">
+        
+            <ul>
+                <li><a href="index.html#history">History of Tsoro</a></li>
+                <li><a href="index.html#">The Mancala Connection</a></li>
+                <li><a href="reference_acknowledgements.html#acknowledgements" >Acknowledgements</a></li>
+                <li><a href="reference_acknowledgements.html#references">References</a></li>
+                <li><a href="index.html#age">Age Restrictions</a></li>
+            </ul>
+
+
+    </div>
+
+    <nav class="another_navmenu">
+        <p>Ready to play</p>
+        <ul>
+            <li><a href="#">What you need</a></li>
+            <li><a href="#">How to play</a></li>
+           
+        </ul>
+
+    </nav>
+
+    <main class="content">
+        <section class="main2_container">
+            <div class="one"> 
+                <img src="images\A7302618.jpg" alt="">
+                <input type="checkbox" id="check1">
+                <h2 id="need">What you need</h2>
+                <p>There are so many versions and variations of the Tsoro game however this website is going to focus on four rows (4 rows) and eight columns (8 columns) Tsoro board game.</p>
+                <div class="read_more_text">
+                    <ol>
+                        <li>Get a Tsoro board with four rows (4 rows) and eight columns (8 columns). This means the board should have thirty-two cups (32 cups) on the board including the 2 banking cups.</li>
+                        <li>Get one hundred and twenty (120) round pebbles to use as game pieces. You can use any seeds that are round or small stones.</li>
+                        <li>Any coin that has two sides. The coin is to be tossed to decide who goes first.</li>
+                        <li>Piece of paper to record scores</li>
+                        <li>Sharpened pencil or pen for recording scores on the paper.</li>
+                        <li>Two players per game.</li>
+                    </ol>
+                    <p>When you have secured the above you are now ready to play the game of Tsoro. </p>
+                    <p>If you don’t have a tsoro board don’t worry, click on the section make your own board. There are instructions on how you can make your own tsoro board with materials that are easy to find in most locations. </p>
+                    <label for="check1" class="read_more_btn">Read Less..</label>
+                </div>
+                <label for="check1" class="read_more_btn">Read More..</label>
+           </div>
+           
+           <div class="one">
+                <img src="images\A7302629.jpg" alt="">
+                <input type="checkbox" id="check2">
+                <h2 id="play">Setting the Tsoro Board</h2>
+                <div class="read_more_text">
+                    <ol>
+                        <li>Tsoro is a two player game</li>
+                        <li>Each player must choose their side of the board. Each plays using two rows (2 rows) and eight columns (8 columns) to make a total of sixteen cups (16 cups).</li>
+                        <li>Each player must get sixty round pebbles (60 pebbles or stones or seeds) from the 120 pebbles</li>
+                        <li>Each player must populate their fifteen cup (15 cups) with four round pebbles (4 pebbles or stones or seeds) per cup.</li>
+                        <li>Leave the bank cup empty. The bank cup is the biggest cup on your side of the board.</li>
+                        <li>Once both players have populated their cups it means players are ready to start the game</li>
+                    </ol>
+                    <label for="check2" class="read_more_btn">Read Less..</label>
+                </div>
+                <label for="check2" class="read_more_btn">Read More..</label>
+           </div> 
+        </section>
+    </main>
+    <script src="javascript\script.js"></script>
+
+    <footer id="footer">
+        <p>Designed by Cyril K Muhwati in partial fullfilment for BSC Computing</p>
+    </footer>
+
+</body>
+</html>

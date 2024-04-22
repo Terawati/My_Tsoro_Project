@@ -1,0 +1,176 @@
+@font-face{
+    font-family: MyHFonts;
+    src: url(../fonts/Turok\ Italic.otf);
+}
+@font-face{
+    font-family: MyPFonts;
+    src: url(../fonts/Metrophobic-Regular.ttf);
+}
+@font-face{
+    font-family: MyLFonts;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
+*{
+    margin:0
+}
+
+.order ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    width: 180px;
+    height: 50px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    opacity: .9;
+}
+#header_container .order ul li a{
+    text-decoration: none;
+    font-family: MyLFonts;
+    display:block;
+    font-size: 15px;
+    padding: 5px 15px;
+    background: #fff;
+}
+#header_container .order ul a:hover{
+        font-weight: 900;
+        background: aqua;
+}
+#header_container .order ul li ul li{
+    display: none;
+}
+#header_container .order ul li:hover ul li{
+    display: block;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+
+#header_container{
+   
+    width: 100%;
+    display:  -webkit-box;
+    -webkit-box-orient: horizontal;
+    position: relative;
+    z-index: 2;
+   
+}
+#heading{
+    
+    width: 250px;
+    display: inline-block;
+    display: flex;
+}
+#nav_menu{
+    margin-top: 12px;
+    width: 500px;
+    display: -webkit-box;
+}
+.main{
+    display: flex;
+}
+.main .heading1{
+    padding: 150px 40px 20px 110px;
+}
+.main img{
+    padding: 100px 0px 20px 60px;
+    width: 650px;
+}
+.main h1{
+
+    font-size: 120px;
+    display: block;
+    font-family: MyHFonts;
+    letter-spacing: 4px;
+}
+.main p{
+ 
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0 50px;
+    font-family: MyPFonts;
+}
+.btns{
+    width: 160px;
+    height: 60px;
+    background: orangered;
+    color:#fff;
+    font-size:larger;
+    margin: 16px 0 0 102px;
+    border-radius: 20px;
+}
+header section img{
+    width: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+#subMenu{
+    position:absolute;
+    z-index: 2;
+    background:#fff;
+    height: 200px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#subMenu.open-menu{
+    max-height: 200px;
+}
+.order{
+    display:flex;
+}
+.order button{
+    margin: 15px 5px 20px 130px;
+}
+#heading h2{
+    font-family: MyHFonts;
+    letter-spacing: 2px;
+}
+#subMenu ul{
+    list-style: none;
+    padding-left: 0;
+    width: 200px;
+    height: 50;
+    line-height: 35px;
+    font-size: 17px;
+    opacity: .95;
+    text-align: center;
+}
+#SubMenu ul li a{
+    text-decoration: none;
+    display: block;
+}
+#subMenu ul a:hover{
+    background-color: gainsboro;
+    border-radius: 15px;
+    font-weight: 500;
+}
+#content p{
+    font-family: MyPFonts;
+    font-size: 18px;
+    margin: 10px 70px;
+    font-weight: 500;
+    opacity: .9;
+    word-spacing: 2px;
+ 
+}
+#content h2{
+    font-family: MyPFonts;
+    margin: 40px 70px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.btn1{
+    width: 130px;
+    height: 40px;
+    background: orangered;
+    color: #fff;
+    border-radius: 20px;
+    margin:16px 0 0 420px;
+    font-size: 16px;
+}
+
